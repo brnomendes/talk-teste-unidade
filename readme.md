@@ -3,11 +3,11 @@
 
 ### Ferramentas para Teste de Unidade em Python
 - Ferramentas na biblioteca padrão:
-  - Doctest
-  - Unittest
+  - [Doctest](https://docs.python.org/3/library/doctest.html)
+  - [Unittest](https://docs.python.org/3/library/unittest.html)
 - Ferramentas externas:
-  - Pytest
-  - Nose
+  - [Pytest](https://docs.pytest.org/en/latest/)
+  - [Nose](http://nose.readthedocs.io/en/latest/)
   
   
   
@@ -23,3 +23,5 @@ $ pip3 install pytest --user
 $ # ou sudo pip3 install pytest
 $ pytest TALKpytest.py
 ```
+
+Mais dicas sobre por que testar em [Testing Your Code - Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/writing/tests/)
