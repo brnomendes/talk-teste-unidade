@@ -19,8 +19,8 @@ $ python3 TALKdoctest.py
 $ python3 TALKunittest.py
 ```
 ```bash
-$ pip3 install pytest --user
-$ # ou sudo pip3 install pytest
+$ sudo pip3 install pytest
+$ # ou pip3 install pytest --user
 $ pytest TALKpytest.py
 ```
 
