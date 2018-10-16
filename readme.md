@@ -21,9 +21,9 @@ $ source venv/bin/activate
 
 $ pip install pytest
 
-$ python TALKdoctest.py
-$ python TALKunittest.py
-$ pytest TALKpytest.py
+$ python unitDoctest.py
+$ python unitUnittest.py
+$ pytest unitPytest.py
 ```
 
 Mais dicas sobre por que testar em [Testing Your Code - Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/writing/tests/)
