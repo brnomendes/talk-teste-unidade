@@ -8,19 +8,21 @@
 - Ferramentas externas:
   - [Pytest](https://docs.pytest.org/en/latest/)
   - [Nose](http://nose.readthedocs.io/en/latest/)
-  
-  
-  
+
+
 ### Como executar
 ```bash
-$ python3 TALKdoctest.py
-```
-```bash
-$ python3 TALKunittest.py
-```
-```bash
-$ sudo pip3 install pytest
-$ # ou pip3 install pytest --user
+$ git clone https://github.com/brnomendes/talk-teste-unidade.git
+$ cd talk-teste-unidade
+
+$ sudo pip install virtualenv
+$ virtualenv -p python3 venv
+$ source venv/bin/activate
+
+$ pip install pytest
+
+$ python TALKdoctest.py
+$ python TALKunittest.py
 $ pytest TALKpytest.py
 ```
 
