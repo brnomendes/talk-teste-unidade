@@ -8,6 +8,7 @@
 - Ferramentas externas:
   - [Pytest](https://docs.pytest.org/en/latest/)
   - [Nose](http://nose.readthedocs.io/en/latest/)
+  - [pytest-mock](https://github.com/pytest-dev/pytest-mock/)
 
 
 ### Como executar
@@ -19,11 +20,12 @@ $ sudo pip install virtualenv
 $ virtualenv -p python3 venv
 $ source venv/bin/activate
 
-$ pip install pytest
+$ pip install -r requirements.txt
 
 $ python unitDoctest.py
 $ python unitUnittest.py
 $ pytest unitPytest.py
+$ pytest unitMock/unitMock.py
 ```
 
 Mais dicas sobre por que testar em [Testing Your Code - Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/writing/tests/)
