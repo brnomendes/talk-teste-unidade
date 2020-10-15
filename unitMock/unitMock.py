@@ -2,6 +2,8 @@ import os
 from unix_fs import UnixFS
 
 def test_unix_fs(mocker):
-    mocker.patch('os.remove')
+    mocker.patch(
+        'os.remove'
+    )
     UnixFS.rm('file')
     os.remove.assert_called_once_with('file')
